@@ -1,0 +1,74 @@
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    background-color: PeachPuff;
+    SCROLLBAR-FACE-COLOR: #72A3D0;
+    SCROLLBAR-HIGHLIGHT-COLOR: #337ABB;
+    SCROLLBAR-SHADOW-COLOR: #337ABB;
+    SCROLLBAR-DARKSHADOW-COLOR: #337ABB;
+    SCROLLBAR-3DLIGHT-COLOR: #337ABB;
+    SCROLLBAR-ARROW-COLOR: #FFFFFF;
+    SCROLLBAR-TRACK-COLOR: #337EC0;
+}
+
+h1 {
+    text-align: center;
+    color: DodgerBlue;
+    font-size: 30px;
+}
+
+p {
+    text-align: center;
+    color: #575757;
+    font-size: 25px;
+}
+
+div {
+    word-wrap: break-word;
+    word-break: normal;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.field-label {
+    float: left;
+    line-height: 25px;
+}
+
+label {
+    color: #575757;
+    font-size: 24px;
+}
+
+.field-widget {
+    float: left;
+}
+
+input {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #61afef;
+    background-color: #f3fcfe;
+    border-left-width: 2px;
+    float: left;
+    font-size: 22px;
+}
+
+button {
+    font-size: 20px;
+    border: 1px solid #61afef;
+    background-color: #f3fcfe;
+    text-align: center;
+    color: #337ABB;
+}

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<uclcode>
+
+    <version>
+            <v_1_1>Version-1</v_1_1>
+            <v_1_2>Version-2</v_1_2>
+            <v_1_3>Version-3</v_1_3>             
+    </version>
+    
+    <!-- type of Media -->
+    <typeofmedia>
+        <t_1_0>ZC Target Object Encode</t_1_0>
+        <t_1_8>News And Information Portals</t_1_8>
+        <t_1_9>Search Engine</t_1_9>
+    </typeofmedia>
+        
+    <!-- priority and policy -->
+    <prioandpoli>
+        <p_1_0>Priority : 0</p_1_0>
+        <p_1_1>Priority : 1</p_1_1>
+        <p_1_2>Priority : 2</p_1_2>
+        <p_1_3>Priority : 3</p_1_3>
+        <p_1_4>Priority : 4</p_1_4>
+        <p_1_5>Priority : 5</p_1_5>
+        <p_1_6>Priority : 6</p_1_6>
+        <p_1_7>Priority : 7</p_1_7>
+        
+        <p_2_0>Non-preemptive Mode</p_2_0>
+        <p_2_1>Preemptive Mode</p_2_1>
+        
+        <p_3_0>Immediately Issue</p_3_0>
+        <p_3_1>Timing Issue</p_3_1>
+        
+        <p_4_0>Not Circularly Issue</p_4_0>
+        <p_4_1>Circularly Issue In 1 Hour</p_4_1>
+        <p_4_2>Circularly Issue In 2 Hour</p_4_2>
+        <p_4_3>Circularly Issue In 4 Hour</p_4_3>
+        <p_4_4>Circularly Issue In 8 Hour</p_4_4>
+        <p_4_5>Circularly Issue In 12 Hour</p_4_5>
+        <p_4_6>Circularly Issue In 24 Hour</p_4_6>
+        <p_4_7>Circularly Issue In 48 Hour</p_4_7>
+    </prioandpoli>
+    
+        <!-- flag -->
+    <flag>
+        <f_1_0>Code Part Does Not Extend</f_1_0>
+        <f_1_1>Code Part Extends</f_1_1>
+
+        <f_2_0>Do Not Have Property Part</f_2_0>
+        <f_2_1>Have Properties Part</f_2_1> 
+        
+        <f_3_0>Multiplex Bytes Do Not Have Timing Or Circularly Issue Information</f_3_0>
+        <f_3_1>Multiplex Bytes Have Timing Or Circularly Issue Information</f_3_1>
+
+        <f_4_0>Multiplex Bytes Do Not Have Information Defined By Application</f_4_0>
+        <f_4_1>Multiplex Bytes Have Information Defined By Application</f_4_1>
+        
+        <f_5_0>UCL Package And Content Object Is detached</f_5_0>
+        <f_5_1>UCL Package Is Integrated</f_5_1>
+        
+        <f_6_0>Do Not Have Related UCLs</f_6_0>
+        <f_6_1>Have Related UCLs</f_6_1>
+        
+        <f_7_0>Do Not Have User-defined Property Set</f_7_0>
+        <f_7_1>Have User-defined Property Set</f_7_1>                                                          
+    </flag>
+    
+    <!-- parse rule -->
+    <parserule>
+
+    </parserule>
+
+    <!-- source of content -->
+    <sourofcont>
+        <s_1_1>URL</s_1_1>
+        <s_1_2>Organization Name</s_1_2>
+        <s_1_3>Application-ZC</s_1_3>
+    </sourofcont>
+    
+    <!-- category -->
+    <category>
+        <c_1_1>Command Center</c_1_1>
+        <c_1_2>Driverless Cars</c_1_2>
+        <c_1_3>Unmanned Aerial Drones</c_1_3>
+        <c_1_4>Commander</c_1_4>
+    </category>    
+    
+    <!-- subcategory -->
+    <subcategory>
+        <s_1_1>Squad</s_1_1>
+        <s_1_2>Platoon</s_1_2>
+        <s_1_3>Company</s_1_3>
+        <s_1_4>Battalion</s_1_4>
+        <s_1_5>Regimental</s_1_5>
+        <s_1_6>Troops</s_1_6>
+        <s_1_7>Division</s_1_7>
+        <s_1_8>Corps</s_1_8>
+    </subcategory>    
+    
+        <!-- topic -->
+    <topic>
+        <t_1_0>Common Topic</t_1_0>
+        <t_1_1>Small Minority Topic</t_1_1>
+
+        <t_3_256>Subordinate Report to Superior</t_3_256>
+        <t_3_272>Command To Subordinate From Superior</t_3_272>
+        <t_3_288>Information Collection</t_3_288>
+    </topic>
+
+    <!-- copyright and type of content -->
+    <copyandtypeofcont>
+        <c_1_0>Do Not Have Copyright Information</c_1_0>
+        <c_1_1>Have Copyright Information</c_1_1>
+        
+        <c_2_0>Transmit Command</c_2_0>
+        <c_2_1>Direct Command</c_2_1>
+        
+        <c_3_1>Free Content</c_3_1>
+        <c_3_1>Rechargeable Content</c_3_1>
+        
+        <c_5_1>Text</c_5_1>
+        <c_5_2>Image</c_5_2>
+        <c_5_3>Audio</c_5_3>
+        <c_5_4>Video</c_5_4>
+        <c_5_5>Multimedia Message</c_5_5>
+        <c_5_6>Application Program</c_5_6>
+        <c_5_7>Composite Type</c_5_7>                                
+    </copyandtypeofcont>
+    
+    <!-- security energy level code -->
+    <secuenerlevecode>   
+        <s_1_0>Labeled When Generated</s_1_0>
+        <s_1_1>Content Provider Certification</s_1_1>
+        <s_1_2>Authoritative Content Center Certification</s_1_2>
+        
+        <s_2_0>Physics Safety Level : 0</s_2_0>
+        <s_2_1>Physics Safety Level : 1</s_2_1>
+        <s_2_2>Physics Safety Level : 2</s_2_2>
+        <s_2_3>Physics Safety Level : 3</s_2_3>
+        <s_2_4>Physics Safety Level : 4</s_2_4>
+        <s_2_5>Physics Safety Level : 5</s_2_5>
+        <s_2_6>Physics Safety Level : 6</s_2_6>
+        <s_2_7>Physics Safety Level : 7</s_2_7>
+        
+        <s_3_0>Logic Safety Level : 0</s_3_0>
+        <s_3_1>Logic Safety Level : 1</s_3_1>
+        <s_3_2>Logic Safety Level : 2</s_3_2>
+        <s_3_3>Logic Safety Level : 3</s_3_3>
+        <s_3_4>Logic Safety Level : 4</s_3_4>
+        <s_3_5>Logic Safety Level : 5</s_3_5>
+        <s_3_6>Logic Safety Level : 6</s_3_6>
+        <s_3_7>Logic Safety Level : 7</s_3_7>       
+    </secuenerlevecode>  
+    
+        <!-- language -->
+    <language>
+        <l_1_8>Chinese</l_1_8>
+        <l_1_9>Mongol</l_1_9>
+        <l_1_10>Tibetan</l_1_10>
+        <l_1_11>Uyghur</l_1_11>
+        <l_1_12>Kazakh</l_1_12>
+        <l_1_13>Korean</l_1_13>
+        <l_1_14>Kyrgyz</l_1_14>
+        <l_1_15>Manchu</l_1_15>
+        <l_1_16>Dai Language</l_1_16>
+        <l_1_17>Yi</l_1_17>
+        <l_1_18>Cuengh</l_1_18>
+        <l_1_31>Other Chinese Minority Ethnic Language</l_1_31>
+        <l_1_36>English</l_1_36>
+        <l_1_37>French</l_1_37>
+        <l_1_38>Russian</l_1_38>
+        <l_1_39>Arabic</l_1_39>
+        <l_1_40>Spanish</l_1_40>
+        <l_1_41>Portuguese</l_1_41>
+        <l_1_42>German</l_1_42>
+        <l_1_43>Japanese</l_1_43>
+        <l_1_44>Hindi</l_1_44>
+        <l_1_45>Bengalese</l_1_45>
+        <l_1_46>Italian</l_1_46>
+        <l_1_63>Other Language</l_1_63>
+        
+        <l_2_0>Property Part Has The Same Language With Code Part</l_2_0>
+        <l_2_1>Property Part Has The Same Language With Meta Language</l_2_1>
+        <l_2_2>Property Part's Language Different With Code Part And Meta Language</l_2_2>
+    </language>  
+    
+        <!-- size of content -->
+    <sizeofcontent>
+        <s_1_0>[1, 4)</s_1_0>
+        <s_1_1>[4, 16)</s_1_1>
+        <s_1_2>[16, 64)</s_1_2>
+        <s_1_3>[64, 128)</s_1_3>
+        <s_1_4>[128, 256)</s_1_4>
+        <s_1_5>[256, 512)</s_1_5>
+        <s_1_6>[512, 768)</s_1_6>
+        <s_1_7>[768, 1024)</s_1_7>
+        
+        <s_2_0>B</s_2_0>
+        <s_2_1>KB</s_2_1>
+        <s_2_2>MB</s_2_2>
+        <s_2_3>GB</s_2_3>        
+    </sizeofcontent>
+    
+        <!-- time stamp -->
+    <timestamp>
+        
+    </timestamp>
+    
+    
+    
+    
+</uclcode>
